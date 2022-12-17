@@ -13,6 +13,7 @@ USES=		cpe libtool:keepla pkgconfig ssl tar:bzip2 gperf
 USE_LDCONFIG=	${PREFIX}/lib/ipsec
 USE_RC_SUBR=	strongswan
 
+MAKE_JOBS_UNSAFE=yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-gmp \
 		--disable-kernel-netlink \
