@@ -1,5 +1,5 @@
 PORTNAME=	strongswan
-DISTVERSION=	gmalg-merge
+DISTVERSION=	5.9.2
 CATEGORIES=	security net-vpn
 MASTER_SITES=	https://images-sftel.cn-bj.ufileos.com/
 
