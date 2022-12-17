@@ -9,7 +9,7 @@ COMMENT=	Open Source IKEv2 IPsec-based VPN solution
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		cpe libtool:keepla pkgconfig ssl tar:bzip2
+USES=		cpe libtool:keepla pkgconfig ssl tar:bzip2 gperf
 USE_LDCONFIG=	${PREFIX}/lib/ipsec
 USE_RC_SUBR=	strongswan
 
